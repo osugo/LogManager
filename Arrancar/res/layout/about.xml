@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeBlue"
+    android:padding="5dip"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application Info"
+        android:gravity="center_horizontal|center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Version 1.0"
+        android:textColor="@color/TextBlue"
+        android:textStyle="normal|bold"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:gravity="center_horizontal|center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        />
+    
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Founder and Product Head : Evans Gikunda"
+            android:gravity="center_horizontal|center"
+            android:textColor="@color/TextBlue"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:text="Lead Developer : Alex Mutinda"
+            android:textColor="@color/TextBlue"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center_horizontal|center"
+            android:text="Input Developer : Alex Kombo"
+            android:textColor="@color/TextBlue"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright ©  2014"
+            android:textStyle="normal|bold"
+            android:gravity="center_horizontal|center"
+            android:textColor="@color/TextBlue" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="All Rights Reserved"
+            android:textStyle="normal|bold"
+            android:gravity="center_horizontal|center"
+            android:textColor="@color/TextBlue" />
+
+</LinearLayout>

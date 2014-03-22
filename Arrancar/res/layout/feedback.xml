@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <EditText
+        android:id="@+id/recipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:background="@drawable/textview_background"
+        android:hint="To:"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/HintColor" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:background="@drawable/textview_background"
+        android:hint="Subject:"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailSubject"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/HintColor" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:gravity="top"
+        android:hint="Message:."
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/HintColor" />
+
+</LinearLayout>

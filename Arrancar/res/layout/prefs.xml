@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="INTERVAL SETTINGS">
+        <ListPreference 
+            android:defaultValue="1"
+            android:entries="@array/log"
+            android:entryValues="@array/lvalues"
+            android:key="log"
+            android:summary="Select an interval when the app alters your call log"
+            android:title="Call log"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

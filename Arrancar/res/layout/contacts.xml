@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ThemeBlue" >
+    
+  <ListView 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@android:id/list"
+      android:listSelector="@drawable/selector"
+      android:dividerHeight="1dip"
+      android:divider="#1f253d"/>
+  
+  <RelativeLayout 
+      android:id="@android:id/empty"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent">
+      
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Add contacts to start using Chameleon"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_centerInParent="true"
+          />
+  </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeBlue"
+    android:padding="5dp" >
+
+    <EditText
+        android:id="@+id/fnameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textview_background"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName|textCapCharacters"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/HintColor" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/numEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fnameEdit"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textview_background"
+        android:ems="10"
+        android:hint="Number"
+        android:imeOptions="actionDone"
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/HintColor" />
+
+    <EditText
+        android:id="@+id/snameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/textview_background"
+        android:ems="10"
+        android:hint="Alias name"
+        android:inputType="textPersonName|textCapWords"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/HintColor" />
+
+    <EditText
+        android:id="@+id/aliasNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snameEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textview_background"
+        android:ems="10"
+        android:hint="Alias number"
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/HintColor" />
+
+    <Button
+        android:id="@+id/pbook"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_button"
+        android:text="ALIAS FROM PHONEBOOK"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/from_phonebook"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pbook"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/login_button"
+        android:text="CONTACT FROM PHONEBOOK"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:chameleon="http://schemas.android.com/apk/res-auto">
+    
+    <item 
+        android:id="@+id/newcontact"
+        android:icon="@drawable/ic_action_add_person"
+        android:title="New Contact"
+        chameleon:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/save"
+        android:icon="@drawable/ic_action_save"
+        android:title="Save"
+        chameleon:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_action_discard"
+        android:title="Delete"
+        chameleon:showAsAction="always"/>
+
+</menu>

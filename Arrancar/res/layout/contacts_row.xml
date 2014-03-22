@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/selector"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/trueDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_phone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/actualName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:text="name"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/actualNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="number"
+                android:textColor="@color/TextBlue"
+                android:textStyle="normal|bold" />
+"
+        </LinearLayout>
+"
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:background="#1f253d" />
+
+    <LinearLayout
+        android:id="@+id/aliasDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/aliasName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="2dip"
+                android:text="name"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/aliasNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="number"
+                android:textColor="@color/TextBlue"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_phone" />
+    </LinearLayout>
+
+</RelativeLayout>

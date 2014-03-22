@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="DeepGrey">#282e3a</color>
+    <color name="MellowGreen">#01b169</color>
+    <color name="Crimson">#bf084b</color>
+    <color name="PlushBlue">#3c78ce</color>
+    <color name="HappyBlue">#3598db</color>
+    <color name="FairRed">#df4931</color>
+    <color name="CalmGreen">#27ae61</color>
+    <color name="BrightOrange">#ff9041</color>
+    <color name="WarmGrey">#687e8c</color>
+    <color name="BouncyBlue">#1fa4c7</color>
+    <color name="Vine">#58d093</color>
+    <color name="HollowGrey">#37495f</color>
+    <color name="PurpBlue">#394263</color>
+    <color name="ProminentBlue">#3469af</color>
+    <color name="TooGrey">#282e3a</color>
+    <color name="ThemeBlue">#394165</color>
+    <color name="TextBlue">#70799a</color>
+    <color name="HintColor">#0ee34b</color>
+    <color name="MenuGrey">#1f253d</color>
+    <color name="ActionBarBlue">#10a8ab</color>
+    <color name="VeryLightGrey">#d8d8d8</color>
+
+</resources>
